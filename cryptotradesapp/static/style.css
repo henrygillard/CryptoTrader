@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+.cryptos-container {
+    border: solid;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 header {
     text-align: center;
     background-color: darkblue;

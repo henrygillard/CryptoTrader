@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>All Cryptos</h1>
+{% for crypto in cryptos %}
+    <div class="cryptos-container">
+        <div class="content">
+            <h3>{{crypto.name}}</h3>
+            <h5>Price: </h5>
+            <span>${{crypto.price}}</span>
+        </div>
+    </div>
+{% endfor %}
+
+
+{% endblock %}
